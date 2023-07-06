@@ -5,20 +5,50 @@
 
 body {
     background-color: #F0FFFF;
+    font-family: 'Georgia', serif;
 }
 
-input {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 450px 800px;
+    grid-template-rows: 400px;
+    grid-gap: 150px;
+}
+
+h1 {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+    h1.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 45px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 15px;
 }
 
 button {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
+    font-family: 'Georgia', serif;
 }
 
 footer{
@@ -27,10 +57,9 @@ footer{
     color: gray; 
 }
 
-textarea {
-    width: 500px;
-    height: 200px;
-    background: white;
-    padding: 10px;
-    border-radius: 10px;
+#cloud {
+    background-image: url("scribble-cloud.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 600px;
 }
