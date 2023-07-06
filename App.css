@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    display: block;
+}
+
+body {
+    background-color: #F0FFFF;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    text-align: left;
+    font-size: 15px;
+    color: gray; 
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
